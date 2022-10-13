@@ -1,0 +1,165 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <main class="main">
+        <div class="mb-lg-2"></div><!-- End .mb-lg-2 -->
+
+
+        <!-- first big slidebar include -->
+        {% include 'store/products/slidebar_first.html' %}
+        <!-- first big slidebar end-->
+
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-9 col-xxl-10">
+                    <div class="row">
+
+                        <!-- two banner after big slidebar include -->
+                        {% include 'store/products/banner_two_second.html' %}
+                        <!-- two banner after big slidebar include end-->
+
+                        <div class="col-12 col-xxl-5col d-none d-xxl-block">
+                            <div class="banner banner-overlay">
+                                <a href="#">
+                                    <img src="{% static 'assets/images/demos/demo-14/banners/banner-4.jpg' %}"
+                                         alt="Banner img desc">
+                                </a>
+                                <div class="banner-content">
+                                    <h4 class="banner-subtitle text-white"><a href="#">Clearance</a></h4>
+                                    <!-- End .banner-subtitle -->
+                                    <h3 class="banner-title text-white"><a href="#">Seating and Tables Clearance</a>
+                                    </h3><!-- End .banner-title -->
+                                    <a href="#" class="banner-link">Shop Now <i class="icon-long-arrow-right"></i></a>
+                                </div><!-- End .banner-content -->
+                            </div><!-- End .banner banner-overlay -->
+                        </div><!-- End .col-lg-3 col-xxl-2 -->
+                    </div><!-- End .row -->
+
+                    <div class="mb-3"></div><!-- End .mb-3 -->
+
+                    <!-- brand logo section third after two banner -->
+                    {% include 'store/products/brand_section_third.html' %}
+                    <!-- brand logo section third after two banner end -->
+
+                    <div class="mb-5"></div><!-- End .mb-5 -->
+
+
+                    <!-- trending today section include-->
+                    {% include 'store/products/trending_today.html' %}
+                    <!-- trending today section end-->
+
+
+                    <div class="mb-5"></div><!-- End .mb-5 -->
+
+
+                    <!-- category list one include -->
+                    {% include 'store/products/cat_two_fourth.html' %}
+                    <!-- category list one include end -->
+
+
+                    <div class="mb-3"></div><!-- End .mb-3 -->
+
+                    <!-- category list two before second banner include -->
+                    {% include 'store/products/cat_one_fifth.html' %}
+                    <!-- category list two before second banner include end-->
+
+                    <div class="mb-3"></div><!-- End .mb-3 -->
+
+
+                    <!-- two banner second time after two category include -->
+                    {% include 'store/products/banner_two_sixth.html' %}
+                    <!-- two banner second time after two category include end -->
+
+
+                    <div class="mb-3"></div><!-- End .mb-3 -->
+
+
+                    <!-- category list third after second banner include -->
+                    {% include 'store/products/cat_third_seventh.html' %}
+                    <!-- category list third after second banner include -->
+
+
+                    <div class="mb-3"></div><!-- End .mb-3 -->
+
+
+                    <!-- category list fourth last category include -->
+                    {% include 'store/products/cat_fourth_eight.html' %}
+                    <!-- category list fourth last category include end -->
+
+
+                    <div class="mb-3"></div><!-- End .mb-3 -->
+
+                    <div class="icon-boxes-container">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-sm-6 col-lg-3">
+                                    <div class="icon-box icon-box-side">
+                                            <span class="icon-box-icon text-dark">
+                                                <i class="icon-rocket"></i>
+                                            </span>
+                                        <div class="icon-box-content">
+                                            <h3 class="icon-box-title">Free Shipping</h3><!-- End .icon-box-title -->
+                                            <p>Orders $50 or more</p>
+                                        </div><!-- End .icon-box-content -->
+                                    </div><!-- End .icon-box -->
+                                </div><!-- End .col-sm-6 col-lg-3 -->
+
+                                <div class="col-sm-6 col-lg-3">
+                                    <div class="icon-box icon-box-side">
+                                            <span class="icon-box-icon text-dark">
+                                                <i class="icon-rotate-left"></i>
+                                            </span>
+
+                                        <div class="icon-box-content">
+                                            <h3 class="icon-box-title">Free Returns</h3><!-- End .icon-box-title -->
+                                            <p>Within 30 days</p>
+                                        </div><!-- End .icon-box-content -->
+                                    </div><!-- End .icon-box -->
+                                </div><!-- End .col-sm-6 col-lg-3 -->
+
+                                <div class="col-sm-6 col-lg-3">
+                                    <div class="icon-box icon-box-side">
+                                            <span class="icon-box-icon text-dark">
+                                                <i class="icon-info-circle"></i>
+                                            </span>
+
+                                        <div class="icon-box-content">
+                                            <h3 class="icon-box-title">Get 20% Off 1 Item</h3>
+                                            <!-- End .icon-box-title -->
+                                            <p>When you sign up</p>
+                                        </div><!-- End .icon-box-content -->
+                                    </div><!-- End .icon-box -->
+                                </div><!-- End .col-sm-6 col-lg-3 -->
+
+                                <div class="col-sm-6 col-lg-3">
+                                    <div class="icon-box icon-box-side">
+                                            <span class="icon-box-icon text-dark">
+                                                <i class="icon-life-ring"></i>
+                                            </span>
+
+                                        <div class="icon-box-content">
+                                            <h3 class="icon-box-title">We Support</h3><!-- End .icon-box-title -->
+                                            <p>24/7 amazing services</p>
+                                        </div><!-- End .icon-box-content -->
+                                    </div><!-- End .icon-box -->
+                                </div><!-- End .col-sm-6 col-lg-3 -->
+                            </div><!-- End .row -->
+                        </div><!-- End .container-fluid -->
+                    </div><!-- End .icon-boxes-container -->
+
+                    <div class="mb-5"></div><!-- End .mb-5 -->
+                </div><!-- End .col-lg-9 col-xxl-10 -->
+
+
+                <!-- side banners include -->
+                {% include 'store/products/side_banner.html' %}
+                <!-- side banners include end -->
+
+
+            </div><!-- End .row -->
+        </div><!-- End .container-fluid -->
+    </main><!-- End .main -->
+{% endblock %}
+
