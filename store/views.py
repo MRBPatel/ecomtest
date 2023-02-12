@@ -10,7 +10,7 @@ def product_list(request):
     context = {
         'product': product_all
     }
-    return render(request, 'store/products/product_list.html', context)
+    return render(request, 'templates/store/products/product_list.html', context)
 
 
 def product(request, slug):
@@ -18,4 +18,4 @@ def product(request, slug):
     context = {
         'product': single_product,
     }
-    return render(request, 'store/products/product.html', context)
+    return render(request, 'templates/store/products/product.html', context)
